@@ -1,0 +1,11 @@
+path: IC-Nacif
+train: /content/IC-Nacif/images/train
+val: /content/IC-Nacif/images/val
+# test: imagens/test
+
+#Classes
+names:
+  0: azul
+  1: branco/cinza
+  2: preto
+  3: verde
