@@ -19,9 +19,10 @@ def YOLOinferencia(caminho_modelo, caminho_teste):
             source=cor_diretorio, # O diretorio onde estão as imagens de test
             conf=0.60, # Define o limiar de confiança mínimo para deteções
             save=True, # True para salvar o resultado da inferência
-            project='saida', 
+            project='saida',
             name=f'saida_{cor}'
             )
-        
-    print("\nOs arquivos foram salvos na pasta /saida_teste\nInferência finlizada com sucesso!")
-   
+
+    print("\nOs arquivos foram salvos na pasta runs/detect/saida\nInferência finlizada com sucesso!")
+    return 0
+
