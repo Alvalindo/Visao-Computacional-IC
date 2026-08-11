@@ -24,11 +24,11 @@ def menu_modelo():
     print("║      Detecção e classificação      ║")
     print("║         de estado de gado          ║")
     print("║                                    ║")
-    print("║   1-Modelo com 50 epochs           ║")
-    print("║   2-Modelo com 100 epochs          ║")
+    print("║   1-Modelo com 25 epochs           ║")
+    print("║   2-Modelo com 50 epochs           ║")
+    print("║   3-Modelo com 100 epochs          ║")
     print("║                                    ║")
-    print("║              3-Voltar              ║")
-    print("║                                    ║")
+    print("║              4-Voltar              ║")
     print("║                                    ║")
     print("║                6567                ║")
     print("╚════════════════════════════════════╝")
@@ -101,16 +101,21 @@ while True:
             opcao = input("Escolha uma das opções: ")
 
             if opcao == '1':
+                caminho_modelo = 'runs/detect/model_Fucinho-25-epochs/weights/best.pt'
+                print("Modelo com 25 epochs selecionado!")
+                input("Presione ENTER para continuar!")
+
+            elif opcao == '2':
                 caminho_modelo = 'runs/detect/model_Fucinho-50-epochs/weights/best.pt'
                 print("Modelo com 50 epochs selecionado!")
                 input("Presione ENTER para continuar!")
 
-            elif opcao == '2':
+            elif opcao == '3':
                 caminho_modelo = 'runs/detect/model_Fucinho-100-epochs/weights/best.pt'
                 print("Modelo com 100 epochs selecionado!")
                 input("Presione ENTER para continuar!")
 
-            elif opcao == '3':
+            elif opcao == '4':
                 break
 
     # Fazer teste de inferência 
