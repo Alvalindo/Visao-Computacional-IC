@@ -30,7 +30,7 @@ deactivate # Desativa o ambiente virtual no seu terminal atual.
 pip install ultralytics 
 ```
 
-> [!AVISO]  
+> [AVISO]  
 > Certifique de ter o pacote python completo instalado.
 >```shell
 ># Execute no terminal:
@@ -57,7 +57,7 @@ pip install ultralytics
 ```
 
 
-> [!AVISO]  
+> [AVISO]  
 > Certifique de ter o pacote **python completo instalado**.
 > Acesse o site **https://www.python.org/** e baixe o python ou reinstale caso >tenha dado erro.
 
@@ -75,7 +75,7 @@ Para a **execução do "mini sofware"**, basta executar o arquivo chamado **main
 python src/main.py
 ```
 
-> [!AVISO]  
+> [AVISO]  
 > Cretifique-se estar no diretório ./src e com .venv ativado no seu terminal!
 > comando: source .venv/bin/activate 
 
@@ -116,7 +116,7 @@ A **opção $4$ é utilizada para mudar o diretório de teste**, sendo necessari
   <img src="readme-images/image-3.png" alt="Saída">
 </p>
 
-> [!AVISO]  
+> [AVISO]  
 > Caso não esteje dessa forma, funcionará do mesmo jeito, mas ficará desorganizado 
 > e pode ser gerado 1 pasta para cada imagem.
 
@@ -129,7 +129,7 @@ A **opção $4$ é utilizada para mudar o diretório de teste**, sendo necessari
 
 **Você pode se perguntar, porque eu não posso rodar o modelo que eu criei no "mini sofware"?**
 
-> [!RESPOSTA]
+> [RESPOSTA]
 > Se você colocar o modelo dentro da pasta runs e alterar algumas coisa no código 
 > do $main.py$, você conseguira inserir o modelo dentro do "mini sofware", mas isso
 > seria mais trabalhoso para executar. A maneira mais inteligente pensada, foi
