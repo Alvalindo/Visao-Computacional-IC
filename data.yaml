@@ -1,5 +1,5 @@
 path: Visao-Computacional-IC
-train: /content/Visao-Computacional-ICimages/train
+train: /content/Visao-Computacional-IC/images/train
 val: /content/Visao-Computacional-IC/images/val
 # test: imagens/test
 
