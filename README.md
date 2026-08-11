@@ -120,6 +120,7 @@ A **opção $4$ é utilizada para mudar o diretório de teste**, sendo necessari
 > Caso não esteje dessa forma, funcionará do mesmo jeito, mas ficará desorganizado 
 > e pode ser gerado 1 pasta para cada imagem.
 
+---
 
 # Quero treinar meu modelo!
 
