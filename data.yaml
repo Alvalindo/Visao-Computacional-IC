@@ -1,6 +1,6 @@
-path: IC-Nacif
-train: /content/IC-Nacif/images/train
-val: /content/IC-Nacif/images/val
+path: Visao-Computacional-IC
+train: /content/Visao-Computacional-ICimages/train
+val: /content/Visao-Computacional-IC/images/val
 # test: imagens/test
 
 #Classes
